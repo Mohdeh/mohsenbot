@@ -74,7 +74,7 @@ export default function Home() {
         }
       });
 
-      // eslint-disable-next-line
+      // ** eslint-disable-next-line for production deployment **
       while (true) {
         const { done, value } = await reader.read();
         if (done) break;
