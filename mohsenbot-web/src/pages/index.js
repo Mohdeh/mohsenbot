@@ -1,7 +1,6 @@
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import Head from "next/head";
-import { createParser } from "eventsource-parser";
 import Navbar from "@/components/Navbar";
 import { streamOpenAIResponse } from "@/utils/openai";
 import { useUser } from "@supabase/auth-helpers-react";
